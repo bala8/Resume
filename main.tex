@@ -1,71 +1,15 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy - One Page Two Column Resume
-% LaTeX Template
-% Version 1.1 (30/4/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
-%
-% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \documentclass[]{deedy-resume-openfont}
-
-
 \begin{document}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-\namesection{Debarghya}{Das}{ \urlstyle{same}\url{http://debarghyadas.com} \\
-\href{mailto:dd367@cornell.edu}{dd367@cornell.edu} | 607.379.5733
+\namesection{}{Balachander Padmanabha}{ 
+\href{mailto:bala.8644@gmail.com}{bala.8644@gmail.com \enspace} \textbullet{} \enspace 858-729-3622 \enspace \textbullet{} \enspace La Jolla, CA 
 }
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -81,23 +25,14 @@
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Expected Dec 2014 | Ithaca, NY \\ Cum. GPA: N/A}
+\subsection{UC San Diego}
+\descript{M.S in Computer Science}
+\location{Expected December, 2017}
 \sectionsep
 
-
-\descript{BS in Computer Science}
-\location{Expected May 2014 | Ithaca, NY}
-Conc. in Software Engineering \\
-College of Engineering \\
-Dean's List (All Semesters) \\
-\location{ Cum. GPA: 3.92 / 4.0 \\
-Major GPA: 3.94 / 4.0}
-\sectionsep
-
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
+\subsection{R.V.C.E}
+\descript{B.E in Information Science}
+\location{Grad. June, 2013 | Bangalore, India}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -105,11 +40,25 @@ Major GPA: 3.94 / 4.0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Github:// \href{https://github.com/deedydas}{\custombold{deedydas}} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\custombold{debarghyadas}} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\custombold{DeedyDash007}} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\custombold{@debarghya\_das}} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\custombold{Debarghya-Das}}
+Github:// \href{https://github.com/bala8}{\custombold{bala8}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/balacp/}{\custombold{balacp}} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{SKILLS}
+
+\subsection{Languages}
+C/C++ \textbullet{} Java \textbullet{} Python \textbullet{} C\#\\ 
+Docker \textbullet{} SQL \textbullet{} Hadoop \textbullet{} PySpark \\
+HTML \textbullet{} CSS \textbullet{} JavaScript \textbullet{} PHP \\
+\sectionsep
+
+\subsection{Tools}
+Linux \textbullet{} Git \textbullet{} Jupyter \textbullet{} GDB  \\
+Valgrind \textbullet{} IntelliJ \textbullet{} Eclipse\\
+Agile/Scrum \textbullet{} Perforce
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -118,36 +67,33 @@ Quora://  \href{https://www.quora.com/Debarghya-Das}{\custombold{Debarghya-Das}}
 
 \section{Coursework}
 \subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-\sectionsep
-
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
-Unix Tools and Scripting \\
+\textbullet{} Distributed Systems \\
+\textbullet{} Computer Security \\
+\textbullet{} Data Mining \& Analytics  \\
+\textbullet{} Computer Communication Networks\\
+\textbullet{} Operating Systems \\
+\textbullet{} Recommender Systems \& Web Mining \\
+\textbullet{} Artificial Intelligence  \\
+\textbullet{} Algorithm Design \& Analysis \\
+\textbullet{} Principles of Database Systems \\
+\textbullet{} Principles of Programming Languages \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
+%     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Skills}
-\subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \\
-OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\section{Awards} 
+\textbullet{} Winner - DCCSG India Hackathon for "Self Defined Adaptive Management System" application. \\
+\textbullet{} 1st Prize - Samsung Mobile Innovator Program for "Travel Buddy" Android application. \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     roles
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Leadership Roles} 
+\textbullet{} VP - The Entrepreneur Challenge (2017)\\
+\textbullet{} Lead - ECN India, Cisco (2014-2016)\\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -161,86 +107,79 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Objective
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Objective}
+\location{Seeking Full-Time Software Engineering Position starting early 2018.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience}
-
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{Expected June 2014 – Sep 2014 | Mountain View, CA}
+\section{Professional Experience}
+\runsubsection{Aruba Networks}
+\descript{| Software Engineering Intern }
+\location{June 2017 – September 2017 | Santa Clara, CA | C++, Python}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+\item Designed \& developed dynamic end-to-end telemetry monitor for available bandwidth utilization \& adaptive QoS infra for SD-WAN Mobility Controller, enabling competitive market advantage for the product. 
+\item Helped reduce overall policy enforcement module defect backlog by 65\% in first 2 months. 
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
+\runsubsection{UC San Diego}
+\descript{| Graduate Teaching Assistant }
+\location{March 2017 - December 2017 | San Diego, CA}
+\begin{tightemize} 
+\item Course: CSE 123 (Computer Networks) 
+\item Involved conducting quizzes, lab/discussion sessions \& evaluating projects for 300+ undergraduate students. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Cisco Systems}
+\descript{| Software Engineer II }
+\location{August 2013 – August 2016 | Bangalore, India | C/C++, Python, Docker, GDB}
 \begin{tightemize}
-\item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.
-\item Created a backbone.js-like framework for the Captions editor.
-\item All code was reviewed, perfected, and pushed to production.
+\item Worked on Data Center Switching product line.
+\item Gained expertise \& took up complete ownership for Auto-configuration, DHCP \& packet manager modules.
+\item Also contributed to feature development \& customer escalations for Programmable fabric, VxLAN \& K-stack.
+\item Helped mentor 5-6 senior engineers \& new hires in Auto-configuration and DHCP modules. 
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{PROJECTS}
+
+\runsubsection{Distributed File System}
+\location{Java, Docker}
 \begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
-\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.
-\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+\item Developed a distributed fault tolerant file system upon which users can perform create, delete \& query operations. It includes self-initiated replication, file locking \& load-balancing via threshold metrics ensuring consistency \& integrity. It was built using a custom Java RMI implementation.
 \end{tightemize}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Head Undergrad Research}
-\location{Jan 2014 – Present | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+\runsubsection{Facebook: Check-Ins Prediction}
+\location{Python, Jupyter}
+\begin{tightemize}
+\item Built a Recommender System using Facebook's anonymized check-in dataset from Kaggle (roughly 30 million data-points). Performed exploratory analysis \& implemented an Ensemble of generative models (K-NN, Logistic Regression, Naive Bayes) to predict future user check-Ins achieving 65\% accuracy.
+\end{tightemize}
 \sectionsep
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+\runsubsection{Lightweight DHCPv6 Relay Agent}
+\location{C/C++, Python}
+\begin{tightemize}
+\item Implementation of RFC 6221 for Cisco Nexus 5600 platform. Involved in system design, development of the feature, unit/integration testing and automation scripting. 
+\end{tightemize}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-2010     & National & Comp. Soc. of India's National Programming Contest\\
-\end{tabular}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SOCIETIES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Societies} 
-
-\begin{tabular}{rll}
-2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
-2014   & National   & The Global Leadership and Education Forum (tGELF)\\
-2012   &  National  & Golden Key International Honor Society\\
-2012   &  National   & National Society of Collegiate Scholars\\
-\end{tabular}
+\runsubsection{Smart-Crop}
+\location{Java, Hadoop, Ganglia, SQL}
+\begin{tightemize}
+\item Implemented SVM \& Random Forest algorithm for Hyper-spectral satellite image classification in a distributed environment. It managed to get result for land cover classification \& crop stage analysis with an accuracy of 74\%. 
+\end{tightemize}
 \sectionsep
 
 \end{minipage} 
